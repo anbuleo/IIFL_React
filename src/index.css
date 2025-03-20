@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.sidebar {
+  margin-top: 20px;
+  padding: 10px 15px;
+  padding-bottom: 20px;
+}
+.ddnavbtn{
+  padding:0 15px;
+  width:200px;
+  height:101px;
+}
+.layout_child{
+  padding: 0 40px;
+}
+.apicard{
+  padding:30px 20px;
+  height:270px;
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-between
+
+  
+}
+
+
+.traderCard{
+  display:flex;
+  /* align-items: center; */
+  flex-direction:column;
+  padding:20px 20px;
+  justify-content:space-between;
+  height:362px;
+  border-radius:10px;
+ margin:20px 0;
+}
+.cardContent{
+  text-align: left !important;
+}
+#community  { 
+  margin: 40px 0 0 0;
+}
+
+.buttons {
+  height:40px;
+  width:150px;
+  color:#ffff;
+  padding: 30px 0;
+  border-radius: 15px;
+}
+
+#api,.mar{
+  margin:40px 0;
+}
+
+.buttonbottom{
+  width:130px;
+  height:40px;
+  border-radius:8px;
+  background-color:#FAAA38;
+  color:#ffff
+}
+
+
+@media (max-width: 639px){
+  
+}
+@media (min-width: 640px) and (max-width: 767px) {
+ 
+}
+
+/* Medium Devices (Tablets in Landscape) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+/* Large Devices (Laptops & Small Desktops) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+ 
+}
+
+/* 2XL Screens (Ultra-wide Monitors) */
+@media (min-width: 1536px) {
+ 
+}
