@@ -72,28 +72,3 @@
 }
 
 
-@media (max-width: 639px){
-  
-}
-@media (min-width: 640px) and (max-width: 767px) {
- 
-}
-
-/* Medium Devices (Tablets in Landscape) */
-@media (min-width: 768px) and (max-width: 1023px) {
-
-}
-/* Large Devices (Laptops & Small Desktops) */
-@media (min-width: 1024px) and (max-width: 1279px) {
-  
-}
-
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1280px) and (max-width: 1535px) {
- 
-}
-
-/* 2XL Screens (Ultra-wide Monitors) */
-@media (min-width: 1536px) {
- 
-}
