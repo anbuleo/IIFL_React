@@ -26,8 +26,8 @@ function NavBar({ toggleSidebar }) {
 
           {/* Logo */}
           <div className="flex items-center gap-2 h-8">
-            <div className="rounded-2xl bg-orange-400 p-1  h-full">
-              <img src={vector} alt="Logo" className="  h-full" />
+            <div className="rounded-2xl w-[35px] h-[35px] bg-orange-400 p-1  ">
+              <img src={vector} alt="Logo" className="w-full  h-full" />
             </div>
             <div className="flex flex-col justify-center  h-full">
               <p className=" text-xs sm:text-lg md:text-2xl font-bold">IIFL</p>
